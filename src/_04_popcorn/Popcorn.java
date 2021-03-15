@@ -49,8 +49,8 @@ public class Popcorn {
 	private String flavor;
 	private boolean isCooked = false;
 
-	Popcorn(String flavor) {
-		this.flavor = flavor;
+	Popcorn(String dog) {
+		this.flavor = dog;
 		System.out.println("Popcorn says: making package of " + this.flavor + " popcorn.");
 	}
 
